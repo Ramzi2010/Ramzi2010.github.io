@@ -77,7 +77,6 @@ h3 {
     text-shadow: 1px 3px 2px black;
 }
 
-
 #presentation {
     background-color: rgb(150, 72, 28);
     padding: 10px 0px 100px 0;
@@ -152,4 +151,11 @@ h4 {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+}
+#text h3 {
+    color: black;
+    text-shadow: none;
+}
+#projet1 img {
+    margin-right: 90px;
 }
