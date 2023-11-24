@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:ital,wght@1,300&display=swap');
 
+@media screen and (min-width: 768px) {
 body {
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
+    display: none;
+  }
 }
 ul {
     margin: 0;
@@ -83,14 +86,10 @@ h3 {
 }
 #texteIntro {
     padding: 0px 20%;
-    color: black;
-    text-shadow: 1px 3px 2px black;
 }
 #texteIntro h2 {
     color: rgb(0, 250, 30);
-}
-#texteIntro p {
-    text-shadow: none;
+    text-shadow: 1px 3px 2px black;
 }
 #prestations {
    display: flex;
