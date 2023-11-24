@@ -85,6 +85,10 @@ h3 {
     padding: 0px 20%;
     color: black;
     text-shadow: none;
+    text-shadow: 1px 3px 2px black;
+}
+#texteIntro h2 {
+    color: rgb(0, 250, 30);
 }
 #prestations {
    display: flex;
